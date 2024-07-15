@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body{
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  visibility: hidden;
+}
+
+::-webkit-scrollbar {
+  display: block;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10%;
+  visibility: hidden;
+}

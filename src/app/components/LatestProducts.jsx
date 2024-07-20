@@ -27,7 +27,7 @@ const LatestProducts = ({latestProducts}) => {
         </div>
           <Image src={item} height={100} width={100} alt="" className="flex justify-center items-center"/>
           <p className="font-bold">Fresh coffee</p>
-          <Image src="/stars-group.png" height={50} width={50}/>
+          <Image src="/stars-group.png" height={50} alt="" width={50}/>
           <p>₹ 100.00 <span className="line-through">₹ 120.00</span></p>
         </div>
       ))}

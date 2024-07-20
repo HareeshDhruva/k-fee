@@ -11,7 +11,7 @@ const ContactUs = () => {
       <h1 className="uppercase text-[40px] font-bold py-4">contact <span className="text-[#D3AD7F]">us</span></h1>
       <div className="flex mx-[200px] mt-[30px] bg-[#13131A]">
         <div className="w-1/2">
-          <Image src="/map.png" width={500} height={500} />
+          <Image src="/map.png" alt="" width={500} height={500} />
         </div>
         <div className="w-1/2 text-center flex flex-col gap-5 justify-center p-4">
           <h1 className="font-bold text-[30px] uppercase"> get in <span className="text-[#D3AD7F]">touch</span></h1>

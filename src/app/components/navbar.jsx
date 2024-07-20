@@ -18,7 +18,7 @@ const Navbar = ({ navData }) => {
     <div className=" text-white">
       <div className="w-[80%] m-auto flex items-center justify-evenly gap-20 py-4">
         <div>
-          <Image src="/coffeelogo.png" width={100} height={100} />
+          <Image src="/coffeelogo.png" width={100} alt="" height={100} />
         </div>
           <div className="flex gap-10">
             {navData.map((item, index) => (

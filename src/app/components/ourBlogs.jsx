@@ -10,9 +10,9 @@ const OurBlogs = ({BlogImages}) => {
         {BlogImages.map((item, index) => (
           <div
             className="h-[400px] w-[300px] border border-[#D3AD7F] flex justify-center items-center flex-col gap-2"
-            id={index}
+            key={index}
           >
-            <Image src={item.url} height={200} width={200} className="flex justify-center items-center"/>
+            <Image src={item.url} alt="" height={200} width={200} className="flex justify-center items-center"/>
             <p className="font-bold">Tasty & Refreshing coffee</p>
             <p className="text-[0.9rem]">by Dhruva / 3rd july</p>
             <p className="p-4 text-[0.9rem]">{item.info}</p>

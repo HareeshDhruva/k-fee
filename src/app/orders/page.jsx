@@ -35,7 +35,7 @@ const Page = () => {
   return (
     <>
       {myOrders ? (
-        <div className="text-center bg-black text-white h-[100dvh]">
+        <div className="text-center bg-black text-white h-[100dvh] my-10">
           <h1 className="uppercase text-[40px] font-bold py-10">my orders</h1>
           <div className="grid grid-cols-3 grid-rows-2 items-center justify-evenly gap-10 mx-[200px]">
             {myOrders?.map((item, index) => (

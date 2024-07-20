@@ -59,6 +59,7 @@ const Page = () => {
               </div>
             ))}
           </div>
+          <div className="mb-10"></div>
         </div>
       ) : (
         <h1 className="uppercase text-[40px] font-bold py-10 text-white bg-black h-[100dvh] w-full flex justify-center items-center">

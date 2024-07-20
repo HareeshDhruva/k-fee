@@ -12,7 +12,7 @@ const LatestProducts = ({latestProducts}) => {
       {latestProducts.map((item, index) => (
         <div
           className="h-[400px] w-[300px] border border-[#D3AD7F] flex justify-center items-center flex-col gap-2"
-          id={index}
+          key={index}
         >
         <div className='flex gap-5 p-4 text-[20px]'>
             <div className='ring-1 p-2 ring-white'>
@@ -25,7 +25,7 @@ const LatestProducts = ({latestProducts}) => {
             <PiNumberCircleZeroFill/>
             </div>
         </div>
-          <Image src={item} height={100} width={100} className="flex justify-center items-center"/>
+          <Image src={item} height={100} width={100} alt="" className="flex justify-center items-center"/>
           <p className="font-bold">Fresh coffee</p>
           <Image src="/stars-group.png" height={50} width={50}/>
           <p>₹ 100.00 <span className="line-through">₹ 120.00</span></p>

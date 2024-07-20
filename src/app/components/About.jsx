@@ -16,7 +16,7 @@ const About = () => {
             what makes you coffee special
           </h1>
           <p className="first-line:ml-4">
-            my coffee is more than a beverage; it's an experience crafted with
+            my coffee is more than a beverage; its an experience crafted with
             passion and expertise. It embodies a blend of traditions and
             innovation, where I experiment with different roasting techniques
             and blend profiles to create unique flavor profiles. Beyond its

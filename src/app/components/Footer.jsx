@@ -19,7 +19,7 @@ const Footer = ({navData}) => {
         <div className='flex justify-center items-center mt-10'>
           <ul className="flex gap-2">
             {navData.map((item, index) => (
-              <Link href="/home" id={index} className="text-[15px] ring-1 py-1 px-5 ring-[#D3AD7F] first-letter:uppercase">
+              <Link href="/home" key={index} className="text-[15px] ring-1 py-1 px-5 ring-[#D3AD7F] first-letter:uppercase">
                 {item}
               </Link>
             ))}

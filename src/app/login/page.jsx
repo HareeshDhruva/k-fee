@@ -38,7 +38,7 @@ const Login = () => {
             <Input label="user name" type="text" id="username" value={data.username} onChange={(e) => onValueChange(e)}/>
             <Input label="password" type="password" id="password" value={data.password} onChange={(e) => onValueChange(e)} />
             <button type="submit" className="bg-[#13131A] hover:bg-[#6c6c82] text-white px-4 py-2 rounded w-full" onClick = {(e)=>onLogin(e)}>Submit</button>
-            <p className="mt-4 text-center ">don't have an account ? {""}
+            <p className="mt-4 text-center ">don&apos;t have an account ? {""}
             <Link href="/register" className="text-blue-500 hover:underline">Register</Link>
             </p>
         </form>

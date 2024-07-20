@@ -9,7 +9,7 @@ const About = () => {
       </h1>
       <div className="flex mx-[200px] mt-[30px] bg-[#13131A]">
         <div className="w-1/2">
-          <Image src="/aboutcoffee.png" width={500} height={500} />
+          <Image src="/aboutcoffee.png" width={500} height={500} alt="" />
         </div>
         <div className="w-1/2 text-left flex flex-col gap-5 justify-center p-2">
           <h1 className="font-bold text-[30px]">

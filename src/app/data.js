@@ -1,7 +1,7 @@
 export const navData = ["home", "login", "register", "profile", "orders"];
 export const heading = "fresh coffee in the morning";
 export const para =
-  "Fresh coffee in the morning is more than just a drink—it's an aromatic ritual that awakens the senses and sets the tone for the day ahead. Each sip offers a revitalizing burst of flavor, a moment of calm amidst the morning rush, making it the perfect start to a new day";
+  "Fresh coffee in the morning is more than just a drink—its an aromatic ritual that awakens the senses and sets the tone for the day ahead. Each sip offers a revitalizing burst of flavor, a moment of calm amidst the morning rush, making it the perfect start to a new day";
 
 export const latestProducts = [
   "/Rectangle 16.png",

@@ -12,10 +12,10 @@ const OurBlogs = ({BlogImages}) => {
             className="h-[400px] w-[300px] border border-[#D3AD7F] flex justify-center items-center flex-col gap-2"
             id={index}
           >
-            <Image src={item} height={200} width={200} className="flex justify-center items-center"/>
+            <Image src={item.url} height={200} width={200} className="flex justify-center items-center"/>
             <p className="font-bold">Tasty & Refreshing coffee</p>
-            <p>by karthikeya / 31st jume</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, hic!</p>
+            <p className="text-[0.9rem]">by Dhruva / 3rd july</p>
+            <p className="p-4 text-[0.9rem]">{item.info}</p>
             <Button name={"Get it now"} styleBtn={""}/>
           </div>
         ))}

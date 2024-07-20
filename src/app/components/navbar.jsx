@@ -20,16 +20,14 @@ const Navbar = ({ navData }) => {
         <div>
           <Image src="/coffeelogo.png" width={100} height={100} />
         </div>
-        <div>
-          <ul className="flex gap-10">
+          <div className="flex gap-10">
             {navData.map((item, index) => (
-              <Link href={`/${item}`} id={index} className="text-[15px] first-letter:uppercase">
+              <Link key={index} href={`/${item}`} className="text-[15px] first-letter:uppercase">
                 {item}
               </Link>
             ))}
-          </ul>
-        </div>
-        <div className="flex gap-4 text-[25px] justify-center items-center">
+          </div>
+        <div className="flex gap-5 text-[25px] justify-center items-center">
           <LuSearch />
           <FaCartArrowDown />
           <div className="text-[16px]"> 

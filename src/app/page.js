@@ -1,6 +1,9 @@
-import Login from './login/page'
-export default function Home() {
+"use client"
+import Login from './login/page';
+const Home = () => {
   return (
-      <Login/>
-  )
-}
+      <Login />
+  );
+};
+
+export default Home;

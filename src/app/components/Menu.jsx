@@ -54,14 +54,13 @@ const Menu = ({ menuItems }) => {
         {menuItems.map((item, index) => (
           <div
             className="h-[300px] w-[300px] border border-[#D3AD7F] flex justify-center items-center flex-col gap-2"
-            id={index}
+            key={index}
           >
             <Image
               src={item.src}
               height={50}
               width={50}
               alt=""
-              key={index}
               className="flex justify-center items-center"
             />
             <p className="font-bold">{item.itemName}</p>

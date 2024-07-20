@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const Url = "mongodb+srv://hareesh_dhruva:jfnr9keoc3@hareeshdhruva.c2rlzjk.mongodb.net/NEXT";
 const connection = async () =>{
     try{
-        await mongoose.connect(Url,{useUnifiedTopology:true});
+        await mongoose.connect(Url);
         console.log("Database connected Sucessfully")
     }
     catch(error){

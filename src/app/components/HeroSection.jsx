@@ -12,7 +12,7 @@ const HeroSection = ({ headin, para }) => {
             backgroundPositionX:-70,
             backgroundSize:"fit",
         }}
-        className="pt-32 border-gray-800 border-t-2"
+        className="pt-32"
       >
         <div className="w-1/2 z-10 text-white">
           <h1 className="text-[50px] uppercase font-bold ml-[200px]">{headin}</h1>
